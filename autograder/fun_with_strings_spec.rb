@@ -1,7 +1,3 @@
-require 'fun_with_strings'
-require 'byebug'
-
-
 describe 'palindrome detection' do
   it 'should work for simple strings [10 points]', points: 10 do
     'redivider'.should  be_a_palindrome
