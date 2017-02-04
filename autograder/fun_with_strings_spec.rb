@@ -51,6 +51,7 @@ describe 'anagram grouping' do
     @anagrams.each { |group| group.sort! }
     [%w(cars scar), %w(four), %w(for), %w(creams scream)].each do |group|
         @anagrams.should include(group)
+        @anagrams.length.should == 4
     end
   end
 end
